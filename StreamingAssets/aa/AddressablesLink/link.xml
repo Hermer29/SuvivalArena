@@ -30,6 +30,7 @@
     <type fullname="Arena.View.ViewUnsavedCoins" preserve="all" />
     <type fullname="Arena.Wave.Evacuation" preserve="all" />
     <type fullname="Arena.Weapon.WeaponStatsConfig" preserve="all" />
+    <type fullname="CodeBase.Monetization.Services.Components.AdvertisingButton" preserve="all" />
     <type fullname="CodeBase.Monetization.Services.Sharing.ShareButton" preserve="all" />
     <type fullname="InfimaGames.ACurves" preserve="all" />
     <type fullname="InfimaGames.LowPolyShooterPack.BoltBehaviour" preserve="all" />
