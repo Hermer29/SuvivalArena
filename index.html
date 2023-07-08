@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Arena</title>
+  <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
 </head>
 
 <body style="margin: 0px; overflow: hidden;" oncontextmenu="return false;">
@@ -14,14 +15,14 @@
 
   <div id="progress-bar" style="position: absolute; left: 0%; right: 100%; top: 49%; bottom: 49%; background-color: white;"></div>
 
-  <script src="Build/11.loader.js"></script>
+  <script src="Build/12.loader.js"></script>
   <script>
     const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent);
 
     const settings = {
-      dataUrl: "Build/db82b909a5a493d48aba67615455964c.data",
-      frameworkUrl: "Build/972b71e6f4550cd7d0572d815907c3b2.js",
-      codeUrl: "Build/73701fba648a732840638a09748ef9f3.wasm",
+      dataUrl: "Build/d827c458da4091539fbbdc4ebcd59a32.data",
+      frameworkUrl: "Build/4273e22999379faf15f43fdae44ea36e.js",
+      codeUrl: "Build/cad537285f084136d9e634ff698ba731.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "Arena",
@@ -41,6 +42,7 @@
         alert(message);
       });
     }, 500); // Wait half a second before loading. Makes page more responsive on reload.
+    window['vkBridge'].send('VKWebAppInit');
   </script>
 </body>
 
