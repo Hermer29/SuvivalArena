@@ -99,15 +99,16 @@
     <type fullname="Arena.MainMenu.LevelSelectButton" preserve="nothing" serialized="true" />
     <type fullname="Arena.MainMenu.PerkSelectButton" preserve="nothing" serialized="true" />
     <type fullname="Arena.Player.PerkConfig" preserve="nothing" serialized="true" />
-    <type fullname="InfimaGames.LowPolyShooterPack.AudioSettings" preserve="nothing" serialized="true" />
-    <type fullname="InfimaGames.SpringSettings" preserve="nothing" serialized="true" />
     <type fullname="Arena.Items.Drop" preserve="nothing" serialized="true" />
+    <type fullname="InfimaGames.LowPolyShooterPack.AudioSettings" preserve="nothing" serialized="true" />
     <type fullname="InfimaGames.LowPolyShooterPack.FeelState" preserve="nothing" serialized="true" />
     <type fullname="InfimaGames.LowPolyShooterPack.SwayDirection" preserve="nothing" serialized="true" />
+    <type fullname="InfimaGames.SpringSettings" preserve="nothing" serialized="true" />
     <type fullname="Outline/ListVector3" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Animation.Rigging, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animations.Rigging.RigBuilder" preserve="all" />
